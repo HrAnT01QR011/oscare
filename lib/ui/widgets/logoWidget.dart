@@ -10,9 +10,9 @@ class LogoWidget extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Image.asset('res/images/logo.png',
+    return Image.asset('res/images/oscareLogo.png',
         width: width,
         height: height,
-        alignment: Alignment.topCenter);
+        alignment: Alignment.center);
   }
 }
